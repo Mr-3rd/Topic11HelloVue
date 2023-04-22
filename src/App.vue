@@ -5,6 +5,7 @@
   </div>
 
 </template>
+//Help comment
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'

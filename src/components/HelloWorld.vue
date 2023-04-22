@@ -19,12 +19,11 @@ export default {
   },
   // add the special mounted function - gets called as the vue app is generated on screen - initial configuration here
   mounted() {
-    // todo: understand why this is errored
+    // make the axios api call
     this.$hello_api.getHelloMessage().then( resp => {
       console.log(resp)
       this.helloMessage = resp.Message
     })
-    // this.helloMessage = "Error in api call"
   }
 }
 </script>

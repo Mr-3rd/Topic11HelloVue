@@ -7,7 +7,6 @@ let base = 'api'
 export default {
     // Title the function getHelloMessage
     getHelloMessage() {
-
         // This is an axios get call
         return axios.get(base).then(response => {
             return response.data
